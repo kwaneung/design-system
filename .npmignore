@@ -1,0 +1,36 @@
+# 개발 관련 파일들
+src/
+.storybook/
+public/
+node_modules/
+
+# 설정 파일들
+vite.config.ts
+tsup.config.ts
+tsconfig*.json
+components.json
+eslint.config.js
+
+# 스토리북 관련
+*.stories.ts
+*.stories.tsx
+storybook-static/
+
+# 테스트 파일들
+*.test.ts
+*.test.tsx
+__tests__/
+coverage/
+
+# 기타 개발 파일들
+.env*
+.vscode/
+.idea/
+*.log
+README.md
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# 빌드 관련 (dist는 포함해야 함)
+index.html
