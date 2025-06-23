@@ -1,3 +1,6 @@
+// Import styles first
+import './index.css';
+
 // UI Components
 export { Button, buttonVariants } from './components/ui/button';
 

@@ -18,6 +18,9 @@ export default defineConfig({
   // 빌드 전 기존 파일 삭제
   clean: true,
 
+  // CSS를 JavaScript 번들에 포함
+  injectStyle: true,
+
   // 외부 의존성 처리 (React 등은 번들에 포함하지 않음)
   external: [
     'react',
